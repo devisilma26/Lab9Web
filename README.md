@@ -1,11 +1,11 @@
 | DEVI SILMA YUNIAR | 312010458 |
 |-------------------|-----------|
-|    Praktikum 8    |  Pert-11  |
+|    Praktikum 9    |  Pert-11  |
 
-## dipertemuan kali ini saya akan mempelajari php mudular
+## DI PERTEMUAN KALI INI SAYA AKAN MEMPELAJARI PHP MODULAR
  
 ## LANGKAH-LANGKAH PRAKTIKUM
------------------------------------------
+
 ## 1. MENJALANKAN XAMPP
 ![xampp](img/xampp_control.jpeg)
 
@@ -25,6 +25,7 @@ Buat header seperti contoh diatas
 
 code header
 
+```php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +43,7 @@ code header
            <a href="about.php">Tentang</a>
            <a href="kontak.php">Kontak</a>
        </nav>
+```
 
 ## Membuat file baru dengan nama footer.php
 ![footer](img/footer.png)
@@ -50,12 +52,14 @@ buat footer.php dan code nya
 
 code footer
 
+```php
 <footer>
             <p>&copy; 2022, Informatika, Universitas Pelita Bangsa</p>
         </footer>
     </div>
 </body>
 </html>
+```
 
 ## 5. Membuat file baru dengan nama home.php
 ![home](img/home.png)
@@ -64,6 +68,7 @@ buat home.php beserta code nya
 
 code home
 
+```php
 <?php require('header.php'); ?>
 
 <div class="content">
@@ -72,6 +77,7 @@ code home
 </div>
 
 <?php require('footer.php'); ?>
+```
 
 ## 6. buat file baru dengan nama about.php
 ![about](img/about.png)
@@ -80,6 +86,7 @@ buat about.php beserta code nya
 
 code about
 
+```php
 <?php require('header.php'); ?>
 
 <div class="content">
@@ -88,6 +95,7 @@ code about
 </div>
 
 <?php require('footer.php'); ?>
+```
 
 ## Tampilkan di browser
 
@@ -109,3 +117,15 @@ Buat file baru atau salin file pada praktikum 8 lalu implementasikan dengan mena
 
 HASIL 
 
+## - tampilan pada bagian home
+![home1](img/bagian-home.jpeg)
+
+## -tampilan pada bagian tambah barang
+![barang](img/tambah_barang.jpeg)
+
+## - tampilan pada ubah barang
+![ubah](img/ubah_barang.jpeg)
+
+--------------------------------------------------------------------------------------------------------------------
+                SEKIAN DAN TERIMA KASIH
+--------------------------------------------------------------------------------------------------------------------
